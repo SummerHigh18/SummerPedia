@@ -21,11 +21,21 @@
     font-size: 23px;
 }
 
+
 .nav-wiki {
     flex-direction: row-reverse;
     margin: 0;
     margin-top: 5px;
     margin-right: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #3366cc;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 #donate {
@@ -99,6 +109,7 @@
 
 img {
     width: 256px;
+    
     /* text-align: center; */
 }
 
@@ -106,3 +117,40 @@ img {
     text-align: center;
     padding: 8px;
 }
+
+.label-img {
+    font-size: 12px;
+    margin: 0;
+}
+
+td {
+    padding: 12px;
+    
+}
+
+table {
+
+  width: 100%;
+
+  border-collapse: collapse;
+
+}
+
+td {
+
+  padding: 3px 8px;
+
+  vertical-align: top;
+
+  border-top: 1px solid #eaecf0; 
+
+}
+
+td:first-child {
+
+  font-weight: bold;
+
+  width: 45%; 
+
+}
+
