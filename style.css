@@ -173,7 +173,7 @@ h2 {
     margin: 8px 16px;
 }
 
-.hackpad {
+.hackpad, #buzz, .morsed {
     float: left;
     padding: 6px;
     margin-right: 12px;
@@ -181,13 +181,13 @@ h2 {
     padding-bottom: 16px;
 }
 
-.hackpad p {
+.hackpad p, #buzz p, .morsed p {
     margin: 0;
     padding: 0;
     text-align: center;
     font-size: 12px;
 }
-.hackpad.another {
+.hackpad.another, .morsed {
     float: right;
     padding-top: 8px;
 }
