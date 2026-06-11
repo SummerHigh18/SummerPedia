@@ -191,3 +191,8 @@ h2 {
     float: right;
     padding-top: 8px;
 }
+
+#article a {
+    text-decoration: none;
+    color: rgb(68, 66, 66);
+}
