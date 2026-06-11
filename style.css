@@ -75,7 +75,7 @@ a:hover {
 }
 
 .para {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 #name-para {
@@ -156,4 +156,38 @@ td:first-child {
 
 p {
     font-size: 18px;
+}
+
+#early-life {
+    margin: 8px 16px;;
+}
+
+h2 {
+    font-weight: 400;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #a2a9b1;
+    margin-right: 300px;
+}
+
+#projects {
+    margin: 8px 16px;
+}
+
+.hackpad {
+    float: left;
+    padding: 6px;
+    margin-right: 12px;
+    background-color: #f8f9fa;
+    padding-bottom: 16px;
+}
+
+.hackpad p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 12px;
+}
+.hackpad.another {
+    float: right;
+    padding-top: 8px;
 }
